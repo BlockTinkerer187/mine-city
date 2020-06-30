@@ -1,0 +1,356 @@
+img[alt=drawing] { width: 2px/* styles */
+/* called by your view template */
+
+html { position: relative; min-height: 100%; }
+body {
+  font-family: "Benton Sans", Helvetica, Sans-serif;
+  background-color: #f5f5f5;
+  margin-top: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  margin-bottom: 1rem;
+}
+header aside {
+  float: right;
+  margin-top: 13px;
+}
+.logo {
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 5px;
+  width: 70px;
+  display: inline-block;
+}
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 2rem;
+}
+h2, .navbar-brand {
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 1.5rem;
+  background-color: #ffb6c1;
+  padding: 0.75rem 1rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+a {
+  color: #3652d3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+strong {
+  font-weight: 600;
+}
+p {
+  line-height: 21px;
+}
+ul ul,
+ul ol {
+  margin-top: 1rem;
+}
+li {
+  margin-bottom: 1rem;
+  line-height: 21px;
+}
+code {
+  background-color: #f5f5f5;
+  max-width: 100%;
+  font-family: Menlo, Consolas, Monaco, "Lucida Console", Monospace;
+  font-size: 14px;
+  white-space: normal;
+}
+blockquote {
+  background-image: url("https://cdn.glitch.com/621f9875-13c1-423e-a042-7e8fc20f213e%2Fwave.svg?1534012137589");
+  background-repeat: no-repeat;
+  background-position-y: 4px;
+  margin: 0;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+main {
+  padding-top: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+nav {
+  margin-top: 1rem;
+}
+.nav-link {
+    text-align: left;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    background-color: #fff;
+    border: solid #222 2px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 1rem;
+    padding-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+    color: #222;
+}
+a {
+  color: #4f37ff;
+}
+.list-group-item.active {
+  background-color: #4f37ff;
+  border-color: #4f37ff;
+}
+footer {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+footer ul {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1rem;
+}
+.footer {
+  background-color: #e5e5e5;
+  padding: 1rem;
+}
+.disabled, .list-group-item.disabled {
+  color: #ccc;  
+}
+
+/* For highlighting search results */
+.highlight {
+  background-color: yellow;
+}
+
+.pinned::before {
+  font-family: "Font Awesome 5 Free", fa-regular-400;
+  font-weight: 400;
+  content: "\f08d    ";
+}
+
+p img {
+  max-width: 100%;
+}
+
+.button,
+button {
+  text-align: left;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  background-color: #fff;
+  border: solid #222 2px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+.button:hover,
+button:hover {
+  background-color: #f5f5f5;
+}
+.button:active,
+button:active {
+  background-color: #e8e8e8;
+  color: #222;
+}
+.button.has-emoji,
+button.has-emoji {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.button-cta {
+  color: #222;
+  font-weight: 600;
+  border: solid #222 2px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #83ffcd;
+  -webkit-box-shadow: 4px 4px 0 #222;
+          box-shadow: 4px 4px 0 #222;
+}
+.button-cta:hover {
+  background-color: #83ffcd;
+  -webkit-box-shadow: 2px 2px 0 #222;
+          box-shadow: 2px 2px 0 #222;
+}
+.button-cta:active {
+  background-color: #83ffcd;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.button-small {
+  font-size: 12px;
+  padding: 3px 8px;
+  padding-top: 5px;
+}
+.button-tertiary {
+  color: #9b9b9b;
+  border-width: 1px;
+  border-color: #c3c3c3;
+  cursor: pointer;
+  display: inline-block;
+}
+.button-tertiary:hover {
+  color: #222;
+  border-color: #b8b8b8;
+}
+.button-on-secondary-background {
+  color: #727272;
+  border-color: #b8b8b8;
+  background-color: #f5f5f5;
+}
+.button-on-secondary-background:hover {
+  color: #222;
+  background-color: #e8e8e8;
+}
+.button-on-secondary-background:active,
+.button-on-secondary-background:focus {
+  border-color: #222;
+  outline: none;
+}
+.button-borderless {
+  cursor: pointer;
+  display: inline-block;
+  padding-right: 5px;
+  position: relative;
+}
+.button-borderless:hover {
+  opacity: 1;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  border: none;
+}
+.button-borderless:hover .down-arrow {
+  opacity: 1;
+}
+.button-wrap {
+  display: inline-block;
+  position: relative;
+}
+.emoji {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: sub;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 5px;
+}
+button {
+  text-align: left;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  background-color: white;
+  border: solid #222 2px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 6px 12px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+  margin-right: -8px;
+}
+button:hover {
+  background-color: #83FFCD;
+}
+button:active {
+  background-color: #83FFCD;
+  color: #222;
+}
+button.bright {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+button.bmiddle {
+  border-radius: 0px;
+}
+
+header nav {
+  margin-left: 0px;
+}
+
+.list-group {
+  margin-bottom: 3rem;
+}
+
+.list-group-item {
+    color: #636363;
+    border-width: 1px;
+    border-color: #c3c3c3;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 2.5rem;
+    padding: .5rem .5rem 1rem .5rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    line-height: 1.75;
+}
+
+.list-group-item:first-child, .list-group-item:last-child {
+  border-radius: .5rem;
+}
+
+/* For when a nav item is both currently active and also a search result */
+.list-group-item.active.highlight {
+  background-color: #00ff86
+}
+
+
+a[href*="//"]:not([href*="glitch."]):after {
+    content: "" url('https://cdn.glitch.com/f55866fa-2ded-48bc-aa22-2f7c25415551%2Flock.png?1539691424041');  
+}
+
+a[href^="https://creativecommons.org/licenses/by/4.0/"]:after,
+a[href^="https://www.holloway.com/g/equity-compensation"]:after,
+a[href^="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"]:after,
+a[href^="https://frameshiftconsultingdotcom.files.wordpress.com/2016/10/frameshift_role_cards2.pdf"]:after,
+a[href^="https://blog.cultureamp.com/four-practices-for-being-an-equality-ally"]:after,
+a[href^="https://medium.com/gender-inclusivit/gender-inclusion-hacks-10-ways-to-stop-being-oblivious-and-start-being-a-decent-human-ee1a3367d166"]:after,
+a[href^="https://ssd.eff.org/en/module/creating-strong-passwords"]:after,
+a[href^="https://www.dashlane.com"]:after,
+a[href^="https://1password.com"]:after,
+a[href^="https://keybase.io"]:after,
+a[href^="https://support.google.com/accounts/answer/6103523?hl=en&co=GENIE.Platform%3DDesktop&oco=0"]:after,
+a[href^="https://www.yubico.com/yubikey-4-overview/"]:after,
+a[href^="https://www.yubico.com/product/yubikey-neo/"]:after,
+a[href^="https://thenewstack.io/joel-spolsky-on-stack-overflow-inclusion-and-how-he-broke-it-recruiting"]:after,
+a[href^="https://help.lever.co/hc/en-us/articles/204493415-How-do-I-make-a-referral-"]:after,
+a[href^="https://www.lever.co/blog/let-everyone-refer-candidates-with-the-lever-extension"]:after,
+a[href^="https://www.betterment.com"]:after,
+a[href^="https://selfservice2.ascentis.com/FCS/STS/signin.aspx?ReturnUrl=%2fFCS"]:after,
+a[href^="https://www.aetna.com"]:after,
+a[href^="https://hrpro.navigatorsuite.com/login.aspx"]:after,
+a[href^="https://medium.com/glitch/reinventing-version-control-with-glitch-rewind-914c350da442"]:after,
+a[href^="https://www.abacus.com"]:after {
+ont tant;
+  }
+  
+  [alt=drawing] { width: 50px; }
