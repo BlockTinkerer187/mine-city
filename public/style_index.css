@@ -1,0 +1,16 @@
+.mc-bg {
+  background-image: url("https://cdn.glitch.com/7465df0a-888a-475f-a6f6-b08cd3ef581b%2Fmcbg.png?v=1589128835305");
+  background-size: cover;
+}
+
+.no-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.better-sticky {
+  position: sticky;
+  
+}

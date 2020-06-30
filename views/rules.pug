@@ -1,0 +1,39 @@
+doctype html
+head
+  title S.C Rules & Info
+  meta(name='description' content='Rules and Information Index of Survival City.')
+  include ./template/meta.pug
+  
+  
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.1.0/css/solid.css' integrity='sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp' crossorigin='anonymous')
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css' integrity='sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG' crossorigin='anonymous')
+  link(rel='stylesheet' href='//cloud.webtype.com/css/3a8e55c6-b1f3-4659-99eb-125ae72bd084.css')
+  link(rel='stylesheet' type='text/css' href='//culture-zine-backup.glitch.me/culture/styles/styles.css')
+  link(rel='stylesheet' href='/style_rules.css')
+  
+include ./template/nav.pug
+#top.container
+  main
+  
+    .row
+      .col-sm-12.col-md-8
+        #nav-tabContent.tab-content
+      
+      .col-sm-12.col-md-4
+        hr
+        #list-tab.list-group(role='tablist')
+  hr
+  footer.jumbotron.footer.mb-5.mt-5
+    | Made by Admin. 
+    a(href="mailto:mc.survivalcity@gmail.com") Contact
+    a.d-block.d-md-none(href='#top') To Top
+  //
+    include the Glitch button to show what the webpage is about and
+    to make it easier for folks to view source and remix
+  script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous')
+  script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js')
+  script(src='https://cdn.glitch.com/f55866fa-2ded-48bc-aa22-2f7c25415551%2Fsearch-index.min.js?1529700219457')
+  script(src='/jquery.highlight.js')
+  script(src='/app.js')

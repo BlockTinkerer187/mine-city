@@ -1,0 +1,29 @@
+doctype html
+head
+  title S.C Home
+  include ./template/meta.pug
+  link(rel='stylesheet' href='/style_index.css')
+
+include ./template/nav.pug
+
+.jumbotron.jumbotron-fluid.mc-bg.text-center.text-white.bg-dark.m-3
+  h1 Survival City Home Page
+  p Welcome.
+
+.jumbotron.no-margin.bg-white
+  h3 Rules
+  p.text-info View all Realm-Wide rules in effect.
+  button.btn.btn-block.btn-primary.btn-lg(onclick="window.location.href='/rules'") View Rules
+
+.jumbotron.no-margin.bg-white
+  h3 Offenses
+  p.text-info View offenses.
+  button.btn.btn-primary.btn-block.btn-lg(onclick="window.location.href='https://docs.google.com/spreadsheets/d/1013_ni-WKy9kqlmhbnJYEE40xFjTDI3e1GKJF8v-uks/edit'") Go to Offenses Document.
+
+.jumbotron.no-margin.bg-white
+  h3 Report
+  p.text-info Report someone.
+  button.btn.btn-primary.btn-block.btn-lg(onclick="window.location.href='/report'") Go to the report form.
+  
+include ./template/alert.pug
+include ./template/scripts.pug
